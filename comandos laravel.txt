@@ -1,0 +1,17 @@
+php artisan list 		   /ver todos los comandos
+
+php artisan make:migrate Empleados /creamos el modelo de la tabla BD
+php artisan make:model Empleados   /creamos el modelo para hacer querys
+php artisan make:controller EmpleadosController /creamos el controllador para vista o proveer informacion
+
+php artisan migrate    		   /nos levanta las tablas creadas
+php artisan migrate:fresh 	   /nos borra las tablas y alza
+
+
+
+
+/*PARA INSTALAR LOGIN CON ESTILOS*/
+composer require laravel/ui
+
+//instalamos la libreria de boostrap que para login por eso es --auth
+php artisan ui bootstrap --auth
